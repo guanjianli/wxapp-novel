@@ -1,0 +1,10 @@
+
+<!--pages/page/page.wxml-->
+<view class="frame">
+  <view class="fbg"></view>
+  <text wx:if="{{items.content}}" class="tx">{{items.content}}</text>
+  <view wx:if="{{items.content}}" class="pages">
+    <button wx:if="{{items.previous}}" bindtap="onPrev" class="pager1">← 上一章</button>
+    <button wx:if="{{items.next}}" bindtap="onNext" class="pager2">下一章 →</button>
+  </view>
+</view>

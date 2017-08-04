@@ -1,0 +1,7 @@
+<!--pages/chapter/chapter.wxml-->
+
+<view class="bg">
+    <view class="numberlist" wx:for="{{items}}">
+        <navigator class="list_item" url="{{'../page/page?'+'bookId='+bookId+'&chapterId='+item.chapterId}}">{{item.chapterName}}</navigator>
+    </view>
+</view>

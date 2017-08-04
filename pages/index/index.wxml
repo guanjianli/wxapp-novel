@@ -1,0 +1,18 @@
+
+<!--index.wxml-->
+<view class="itembox"  wx:for="{{items}}">
+  <navigator url="{{'../chapter/chapter?bookId='+item.bookId}}" class="book-layout">
+    <image src="{{item.src}}" class="book-cover " ></image>
+    <view class="book-cell">
+      <text class="book-title">{{item.bookName}}</text>
+      <view class="book-desc heightInherit">更新至：{{item.lastChapterName}}</view>
+      <p class="book-desc ">{{item.info}}</p>
+      <view class="book-meta">
+        <view class="book-meta-l"><view class="book-author">
+							<text>作者：</text>{{item.auther}}</view> </view>
+        <view class="book-meta-r"><view class="tag-small-group origin-right">	{{item.bookStatus == 1? "连载":"完结"}}</view></view>
+      </view>
+    </view>
+  </navigator>
+
+</view >

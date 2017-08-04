@@ -1,0 +1,35 @@
+/* pages/chapter/chapter.wxss */
+
+.bg {
+  background: url('http://www.hahayx.com/xiaoshuo/img/wl2.png');
+}
+
+.numberlist {
+  overflow: hidden;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.list_item {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.4em 0.4em 2em;
+  margin-top: 0.5em;
+  background: #fff;
+  color: #444;
+  text-decoration: none;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+}
+
+.list_item:hover {
+  background: #cbe7f8;
+  text-decoration: underline;
+}
+
+.cat{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}

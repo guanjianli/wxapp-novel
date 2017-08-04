@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/chapter/chapter",
+    "pages/page/page",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ddd",
+    "navigationBarTitleText": "哈哈小说精选推荐",
+    "navigationBarTextStyle":"black"
+  }
+}

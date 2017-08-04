@@ -1,0 +1,39 @@
+/* pages/page/page.wxss */
+
+.frame {
+  background: url('http://www.hahayx.com/xiaoshuo/img/wl2.png');
+  position: relative;
+}
+
+.fbg {
+  background: url('http://www.hahayx.com/xiaoshuo/img/bg.png') no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.tx {
+  margin: 0 auto;
+  width: 94%;
+  display: block;
+  padding-top: 15px;
+  font-size: 22px;
+}
+
+.pages {
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.pager1 {
+  float: left;
+}
+
+.pager2 {
+  float: right;
+}
